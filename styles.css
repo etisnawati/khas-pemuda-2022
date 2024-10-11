@@ -1,0 +1,67 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling the heading */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table container */
+table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table border and cell padding */
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Table header styling */
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Table rows styling */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    color: #555;
+    text-align: center;
+}
+
+/* Row for monthly header */
+td[colspan="5"] {
+    background-color: #e2e2e2;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 15px;
+}
+
+/* Add hover effect for rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+}
